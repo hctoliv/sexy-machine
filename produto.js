@@ -169,6 +169,8 @@ async function renderRelated() {
     return;
   }
   document.title = `${data.title} | Sexy Machine`;
+  // WhatsApp já chega falando de qual peça é
+  $('.fab__btn--wa').href = 'https://wa.me/554891016526?text=' + encodeURIComponent(`Oi! Vim pelo site da Sexy Machine e queria saber mais sobre: ${data.title}`);
   $('[data-title]').textContent = data.title;
   $('[data-crumb]').textContent = data.title;
   $('[data-buybar-title]').textContent = data.title;
