@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sexy Machine | by Bad Boy</title>
+<meta name="description" content="Sexy Machine, a marca ícone dos anos 90 e 2000, agora com a Bad Boy: tops, shorts, macaquinho, baby tees e conjuntos de moletom pra treinar e sair do treino do mesmo jeito.">
+<meta name="theme-color" content="#f6eeec">
+<link rel="icon" href="img/sm-logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css?v=1">
+</head>
+<body>
+
+<!-- BARRA DE AVISO -->
+<div class="announce" aria-live="polite">
+  <div class="announce__track">
+    <p class="is-on">12% OFF com o cupom <b>ESQUENTABLACK</b></p>
+    <p>Final sale: conjuntos de moletom de R$ 399 por R$ 199</p>
+    <p>Nova coleção Sexy Machine Fitness. Peças limitadas</p>
+  </div>
+</div>
+
+<!-- CABEÇALHO -->
+<header class="header" id="header">
+  <div class="header__inner">
+    <button class="icon-btn header__burger" aria-label="Abrir menu" data-open="menu">
+      <svg viewBox="0 0 24 24"><path d="M3 7h18M3 12h18M3 17h18"/></svg>
+    </button>
+    <a href="#" class="header__logo" aria-label="Sexy Machine by Bad Boy"><img class="sm-logo" src="img/sm-logo.png" alt="Sexy Machine" width="138" height="94"></a>
+    <nav class="header__nav" aria-label="Principal"></nav>
+    <div class="header__icons">
+      <button class="icon-btn" aria-label="Buscar" data-open="search"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></button>
+      <a class="icon-btn hide-sm" aria-label="Minha conta" href="https://badboy.com.br/account"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"/></svg></a>
+      <button class="icon-btn cart-btn" aria-label="Carrinho" data-open="cart"><svg viewBox="0 0 24 24"><path d="M5 8h14l-1 13H6L5 8Z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg><span class="cart-count" hidden>0</span></button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <!-- SLIDESHOW: fotos verticais da linha em tríptico -->
+  <section class="slideshow" aria-roledescription="carrossel">
+    <div class="slide slide--tri is-on">
+      <div class="tri"><img src="img/rose-3.jpg" alt="Top e shorts Sexy Machine Soft Rose" width="985" height="1478"><img src="img/rose-1.jpg" alt="Top Frente Única Soft Rose" width="1000" height="1501"><img src="img/rose-2.jpg" alt="" width="1000" height="1779"></div>
+      <div class="slide__copy">
+        <h1 class="display display--xl">Sexy Machine Fitness</h1>
+        <p class="eyebrow">Peças que unem conforto e valorizam suas curvas</p>
+        <a href="colecao.html?c=sm-tops" class="btn btn--light">Ver a linha Soft</a>
+      </div>
+    </div>
+    <div class="slide slide--tri">
+      <div class="tri"><img src="img/tee-1.jpg" alt="Baby Tee Sexy Machine X Bad Boy" width="966" height="1448" loading="lazy"><img src="img/tee-3.jpg" alt="Baby Tee Sexy Machine Nostalgic Pink" width="850" height="1850" loading="lazy"><img src="img/tee-2.jpg" alt="" width="900" height="1220" loading="lazy"></div>
+      <div class="slide__copy">
+        <h2 class="display">Baby tees</h2>
+        <p class="eyebrow">Desbloqueie sua memória com a marca mais sexy</p>
+        <a href="colecao.html?c=sm-tees" class="btn btn--light">Ver baby tees</a>
+      </div>
+    </div>
+    <div class="slide slide--tri">
+      <div class="tri"><img src="img/leopard.jpg" alt="Conjunto de Moletom Leopard Sexy Machine" width="1000" height="1500" loading="lazy"><img src="img/tiger.jpg" alt="Conjunto de Moletom Tiger Sexy Machine" width="1000" height="1500" loading="lazy"><img src="img/cherry.jpg" alt="Conjunto de Moletom Cherry Sexy Machine" width="1000" height="1500" loading="lazy"></div>
+      <div class="slide__copy">
+        <h2 class="display">Final sale</h2>
+        <p class="eyebrow">Conjuntos de moletom de R$ 399 por R$ 199</p>
+        <a href="#final-sale" class="btn btn--light">Aproveitar</a>
+      </div>
+    </div>
+    <div class="slideshow__ui">
+      <div class="slideshow__dots" role="tablist">
+        <button class="is-on" aria-label="Slide 1"></button>
+        <button aria-label="Slide 2"></button>
+        <button aria-label="Slide 3"></button>
+      </div>
+      <button class="slideshow__pause" aria-label="Pausar slideshow"><svg viewBox="0 0 24 24"><path d="M9 6v12M15 6v12"/></svg></button>
+    </div>
+  </section>
+
+  <!-- CATEGORIAS -->
+  <section class="section rail" id="categorias">
+    <div class="section__head reveal">
+      <h2 class="h2">Compre por categoria</h2>
+      <div class="rail__arrows">
+        <button class="icon-btn" data-rail="-1" aria-label="Anterior"><svg viewBox="0 0 24 24"><path d="m15 6-6 6 6 6"/></svg></button>
+        <button class="icon-btn" data-rail="1" aria-label="Próximo"><svg viewBox="0 0 24 24"><path d="m9 6 6 6-6 6"/></svg></button>
+      </div>
+    </div>
+    <div class="rail__track">
+      <a class="cat reveal" href="colecao.html?c=sm-tops"><div class="cat__img"><img src="img/rose-3.jpg" alt="" loading="lazy"></div><span>Tops e macaquinho</span></a>
+      <a class="cat reveal" href="colecao.html?c=sm-shorts"><div class="cat__img"><img src="img/ollive-1.jpg" alt="" loading="lazy"></div><span>Shorts</span></a>
+      <a class="cat reveal" href="colecao.html?c=sm-tees"><div class="cat__img"><img src="img/tee-3.jpg" alt="" loading="lazy"></div><span>Baby tees</span></a>
+      <a class="cat reveal" href="colecao.html?c=sm-conjuntos"><div class="cat__img"><img src="img/leopard.jpg" alt="" loading="lazy"></div><span>Conjuntos de moletom</span></a>
+      <a class="cat reveal" href="colecao.html?c=sm-oculos"><div class="cat__img"><img src="https://cdn.shopify.com/s/files/1/0725/9832/3484/files/OculosdeSolSexyMachineItaly_2.png?width=600" alt="" loading="lazy"></div><span>Óculos de sol</span></a>
+      <a class="cat reveal" href="colecao.html?c=sm-bones"><div class="cat__img"><img src="img/bone.jpg" alt="" loading="lazy"></div><span>Bonés e gorros</span></a>
+    </div>
+  </section>
+
+  <!-- NOVIDADES -->
+  <section class="section" id="novidades">
+    <div class="section__head reveal">
+      <h2 class="h2">Acabou de chegar</h2>
+    </div>
+    <div class="grid grid--4" data-products="novos"></div>
+    <div class="section__foot reveal"><a href="colecao.html?c=sexy-machine" class="btn btn--ghost">Ver tudo</a></div>
+  </section>
+
+  <!-- TEXTO CORRENDO -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee__track">
+      <span>A marca ícone dos anos 90 e 2000</span><i></i>
+      <span>Soft Rose · Soft Black · Soft Ollive</span><i></i>
+      <span>12% OFF com o cupom ESQUENTABLACK</span><i></i>
+      <span>Final sale: moletom por R$ 199</span><i></i>
+      <span>A marca ícone dos anos 90 e 2000</span><i></i>
+      <span>Soft Rose · Soft Black · Soft Ollive</span><i></i>
+      <span>12% OFF com o cupom ESQUENTABLACK</span><i></i>
+      <span>Final sale: moletom por R$ 199</span><i></i>
+    </div>
+  </div>
+
+  <!-- CORES (abas) -->
+  <section class="section" id="cores">
+    <div class="section__head section__head--center reveal">
+      <h2 class="h2">Escolha a sua cor</h2>
+      <div class="tabs" role="tablist">
+        <button class="is-on" data-tab="rose"><i class="swatch" style="--sw:#d9a3a0"></i>Soft Rose</button>
+        <button data-tab="black"><i class="swatch" style="--sw:#1a1a1a"></i>Soft Black</button>
+        <button data-tab="ollive"><i class="swatch" style="--sw:#4f5b3a"></i>Soft Ollive</button>
+      </div>
+    </div>
+    <div class="grid grid--4 tab-grid" data-products="rose"></div>
+    <div class="section__foot"><a href="colecao.html?c=sm-tops" class="btn btn--ghost" id="tab-cta">Ver tops e macaquinho</a></div>
+  </section>
+
+  <!-- FAIXA DE IMAGEM -->
+  <section class="feature-media">
+    <div class="feature-media__bg"><img src="img/beach.jpg" alt="" loading="lazy" width="1536" height="1024"></div>
+    <div class="feature-media__copy reveal">
+      <p class="eyebrow">Lançamento: Shorts Blue Moon e Jaqueta Outdoors Black Cat</p>
+      <h2 class="display display--xl">Do treino<br>pro fim de tarde.</h2>
+      <a href="produto.html?p=shorts-sexy-machine-confy-copia" class="btn btn--light">Ver o shorts, R$ 99</a>
+    </div>
+  </section>
+
+  <!-- CHAMADA -->
+  <section class="callout" id="sobre">
+    <div class="callout__stack">
+      <img class="callout__a" src="img/ig-DfDmR_YD2TW.jpg" alt="Top Sexy Machine Soft Rose" loading="lazy">
+      <img class="callout__b" src="img/black-3.jpg" alt="Macaquinho Sexy Machine Soft Black" loading="lazy">
+      <img class="callout__c" src="img/ig-DfAzhQDEenC.jpg" alt="" loading="lazy">
+    </div>
+    <div class="callout__copy reveal">
+      <p class="eyebrow">A marca ícone dos anos 90 e 2000</p>
+      <h2 class="h2">Seja sua melhor versão</h2>
+      <p>A nova coleção Sexy Machine Fitness une conforto e valoriza suas curvas, com uma autenticidade que te acompanha dentro e fora do treino. Tops, shorts e macaquinho em Soft Rose, Soft Black e Soft Ollive, com o olho da Bad Boy na frente e a assinatura Sexy Machine nas costas.</p>
+      <div class="callout__btns">
+        <a href="colecao.html?c=sm" class="btn">Ver toda a linha</a>
+        <a href="produto.html?p=macaquinho-sexy-machine-soft-black" class="btn btn--ghost">Macaquinho Soft Black</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FINAL SALE -->
+  <section class="section" id="final-sale">
+    <div class="section__head reveal">
+      <h2 class="h2">Final sale: 50% OFF</h2>
+      <a href="colecao.html?c=sm-sale" class="link hide-sm">Ver tudo em promoção</a>
+    </div>
+    <div class="grid grid--4" data-products="sale"></div>
+  </section>
+
+  <!-- CONTAGEM BAD FRIDAY -->
+  <section class="countdown" id="bad-friday">
+    <img class="countdown__eye" src="img/olho.png" alt="" aria-hidden="true">
+    <div class="countdown__copy reveal">
+      <h2 class="h2">Bad Friday</h2>
+      <p>Enquanto não chega, 12% OFF em toda a Sexy Machine com o cupom <b>ESQUENTABLACK</b>.</p>
+    </div>
+    <div class="countdown__clock reveal" data-deadline="2026-11-27T00:00:00-03:00">
+      <div><b data-cd="d">00</b><span>dias</span></div>
+      <div><b data-cd="h">00</b><span>horas</span></div>
+      <div><b data-cd="m">00</b><span>minutos</span></div>
+      <div><b data-cd="s">00</b><span>segundos</span></div>
+    </div>
+    <button class="btn btn--light countdown__cta" data-copy="ESQUENTABLACK">Copiar cupom</button>
+  </section>
+
+  <!-- LOOKBOOK (colagem) -->
+  <section class="section">
+    <div class="section__head reveal">
+      <h2 class="h2">Lookbook</h2>
+    </div>
+    <div class="collage">
+      <a class="tile tile--wide reveal" href="produto.html?p=top-frente-unica-sexy-machine-soft-rose"><img src="img/rose-1.jpg" alt="" loading="lazy"><span>Top Frente Única Soft Rose</span></a>
+      <a class="tile reveal" href="produto.html?p=baby-tee-sexy-machine-x-bad-boy"><img src="img/tee-2.jpg" alt="" loading="lazy"><span>Baby Tee X Bad Boy</span></a>
+      <a class="tile reveal" href="produto.html?p=top-sexy-machine-soft-ollive"><img src="img/ollive-1.jpg" alt="" loading="lazy"><span>Soft Ollive</span></a>
+      <a class="tile reveal" href="produto.html?p=macaquinho-sexy-machine-soft-black"><img src="img/black-3.jpg" alt="" loading="lazy"><span>Macaquinho Soft Black</span></a>
+      <a class="tile reveal" href="produto.html?p=conjunto-de-moletom-tiger-sexy-machine"><img src="img/tiger.jpg" alt="" loading="lazy" class="pos-mid"><span>Moletom Tiger</span></a>
+      <a class="tile reveal" href="produto.html?p=bone-sexy-machine-bubblegum"><img src="img/bone.jpg" alt="" loading="lazy"><span>Boné Bubblegum</span></a>
+    </div>
+  </section>
+
+  <!-- ACESSÓRIOS -->
+  <section class="section" id="acessorios">
+    <div class="section__head reveal">
+      <h2 class="h2">Pra fechar o look</h2>
+    </div>
+    <div class="grid grid--4" data-products="acess"></div>
+    <div class="section__foot reveal"><a href="colecao.html?c=sm-acessorios" class="btn btn--ghost">Ver acessórios</a></div>
+  </section>
+
+  <!-- INSTAGRAM -->
+  <section class="section insta">
+    <div class="section__head reveal">
+      <h2 class="h2">@sexymachinebrasil</h2>
+      <a href="https://www.instagram.com/sexymachinebrasil/" class="link">Seguir no Instagram</a>
+    </div>
+    <div class="insta__row">
+      <a class="insta__post reveal" href="https://www.instagram.com/p/DdqzyB4hR0v/"><img src="img/ig-DdqzyB4hR0v.jpg" alt="" loading="lazy"></a>
+      <a class="insta__post reveal" href="https://www.instagram.com/p/DfDmR_YD2TW/"><img src="img/ig-DfDmR_YD2TW.jpg" alt="" loading="lazy"></a>
+      <a class="insta__post reveal" href="https://www.instagram.com/p/De2sBjkiRG2/"><img src="img/ig-De2sBjkiRG2.jpg" alt="" loading="lazy"></a>
+      <a class="insta__post reveal" href="https://www.instagram.com/p/DfAzhQDEenC/"><img src="img/ig-DfAzhQDEenC.jpg" alt="" loading="lazy"></a>
+      <a class="insta__post reveal" href="https://www.instagram.com/p/Dewl4jIEs0g/"><img src="img/ig-Dewl4jIEs0g.jpg" alt="" loading="lazy"></a>
+      <a class="insta__post reveal" href="https://www.instagram.com/p/DJeYa8DREkR/"><img src="img/ig-DJeYa8DREkR.jpg" alt="" loading="lazy"></a>
+    </div>
+  </section>
+
+  <!-- VANTAGENS -->
+  <section class="perks">
+    <a href="https://badboy.com.br/pages/como-comprar" class="perk reveal">
+      <svg viewBox="0 0 24 24"><path d="M3 9h18l-2 11H5L3 9Z"/><path d="M8 9V6a4 4 0 0 1 8 0v3"/></svg>
+      <h3>Compra segura</h3><p>Checkout oficial da Bad Boy.</p>
+    </a>
+    <a href="https://badboy.com.br/pages/faqs" class="perk reveal">
+      <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M9.5 9.5a2.5 2.5 0 1 1 3.5 2.3c-.6.3-1 .9-1 1.6M12 17h.01"/></svg>
+      <h3>Dúvidas e trocas</h3><p>Tudo sobre prazos, tamanhos e trocas.</p>
+    </a>
+    <a href="https://badboy.com.br/pages/programa-de-afiliados-bad-boy" class="perk reveal">
+      <svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5"/><circle cx="17" cy="10" r="2.5"/><path d="M3 20c.8-3.6 3.2-5.5 6-5.5s5.2 1.9 6 5.5M15 15.5c2.6 0 4.6 1.5 5.5 4.5"/></svg>
+      <h3>Seja afiliada</h3><p>Indique a Sexy Machine e ganhe junto.</p>
+    </a>
+    <a href="https://badboy.com.br/pages/seja-um-revendedor-bad-boy" class="perk reveal">
+      <svg viewBox="0 0 24 24"><path d="M12 3l2.6 5.6 6 .7-4.5 4.1 1.2 6-5.3-3-5.3 3 1.2-6L3.4 9.3l6-.7L12 3Z"/></svg>
+      <h3>Revenda</h3><p>Leve a linha pra sua loja ou estúdio.</p>
+    </a>
+  </section>
+
+</main>
+
+<!-- NEWSLETTER + RODAPÉ -->
+<footer class="footer">
+  <div class="newsletter reveal">
+    <h2 class="h2">Entra na lista</h2>
+    <p>Receba todas as novidades e promoções antes de todo mundo.</p>
+    <form class="newsletter__form" onsubmit="event.preventDefault();this.classList.add('is-done')">
+      <input type="email" placeholder="Seu e-mail" aria-label="E-mail" required>
+      <button class="btn" aria-label="Assinar"><svg viewBox="0 0 24 24"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></button>
+      <p class="newsletter__ok">Fechou. Você tá na lista.</p>
+    </form>
+  </div>
+  <div class="footer__cols">
+    <div>
+      <a href="index.html" class="footer__wm"><img class="sm-logo" src="img/sm-logo.png" alt="Sexy Machine" width="138" height="94"></a>
+      <p class="footer__contact"><a href="https://api.whatsapp.com/send?phone=+554891016526">(48) 99101-6526</a><br><a href="mailto:contato@badbr.com.br">contato@badbr.com.br</a></p>
+      <div class="footer__social">
+        <a href="https://www.instagram.com/sexymachinebrasil/" aria-label="Instagram da Sexy Machine"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".6"/></svg></a>
+      </div>
+    </div>
+    <div>
+      <p class="eyebrow">Sexy Machine</p>
+      <a href="colecao.html?c=sexy-machine">Novidades</a>
+      <a href="colecao.html?c=sm-tops">Tops e macaquinho</a>
+      <a href="colecao.html?c=sm-shorts">Shorts</a>
+      <a href="colecao.html?c=sm-tees">Baby tees</a>
+      <a href="colecao.html?c=sm-sale">Final sale</a>
+    </div>
+    <div>
+      <p class="eyebrow">Institucional</p>
+      <a href="https://badboy.com.br/pages/sobre-nos">Sobre nós</a>
+      <a href="https://badboy.com.br/pages/como-comprar">Como comprar</a>
+      <a href="https://badboy.com.br/pages/faqs">Perguntas frequentes</a>
+      <a href="https://badboy.com.br/pages/reviews">Avaliações do site</a>
+      <a href="https://badboy.com.br/blogs/bad-boy">Blog</a>
+    </div>
+    <div>
+      <p class="eyebrow">Parcerias</p>
+      <a href="https://badboy.com.br/pages/programa-de-afiliados-bad-boy">Programa de afiliados</a>
+      <a href="https://badboy.com.br/pages/seja-um-revendedor-bad-boy">Seja um revendedor</a>
+      <a href="https://badboy.com.br/pages/seja-um-licenciado">Licenciamento e collabs</a>
+      <a href="https://badboy.com.br/pages/desconto-para-combatentes">Desconto para combatentes</a>
+    </div>
+  </div>
+  <p class="footer__legal">© 2026 Sexy Machine by Bad Boy. Todos os direitos reservados.</p>
+</footer>
+
+<!-- MENU CELULAR -->
+<aside class="drawer drawer--left" id="menu" aria-hidden="true">
+  <div class="drawer__head"><img class="sm-logo drawer__logo" src="img/sm-logo.png" alt="Sexy Machine"><button class="icon-btn" data-close aria-label="Fechar"><svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
+  <nav class="drawer__nav"></nav>
+</aside>
+
+<!-- BUSCA -->
+<div class="search" id="search" aria-hidden="true">
+  <div class="search__bar">
+    <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+    <input type="search" placeholder="Buscar top, shorts, baby tee..." aria-label="Buscar">
+    <button class="icon-btn" data-close aria-label="Fechar"><svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+  </div>
+  <div class="search__results"></div>
+</div>
+
+<!-- COMPRA RÁPIDA -->
+<div class="modal" id="quick" aria-hidden="true">
+  <div class="modal__box" role="dialog" aria-modal="true" aria-label="Compra rápida">
+    <button class="icon-btn modal__x" data-close aria-label="Fechar"><svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+    <div class="modal__media"></div>
+    <div class="modal__info"></div>
+  </div>
+</div>
+
+<!-- CARRINHO -->
+<aside class="drawer drawer--right" id="cart" aria-hidden="true">
+  <div class="drawer__head"><p class="h3">Carrinho</p><button class="icon-btn" data-close aria-label="Fechar"><svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
+  <div class="cart__items"></div>
+  <div class="cart__foot">
+    <p class="cart__coupon">Use <b>ESQUENTABLACK</b> no checkout e leve 12% OFF</p>
+    <div class="cart__total"><span>Subtotal</span><b data-subtotal>R$ 0,00</b></div>
+    <a class="btn btn--block" href="https://badboy.com.br/cart">Finalizar compra</a>
+  </div>
+</aside>
+
+<div class="scrim" data-close></div>
+<div class="toast" role="status"></div>
+
+<script src="menu.js?v=1"></script>
+<script src="products.js?v=1"></script>
+<script src="common.js?v=1"></script>
+<script src="home.js?v=1"></script>
+</body>
+</html>
